@@ -9,7 +9,7 @@ import { errorHandler } from './server/middleware/errorHandler';
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 10000;
 
   // Initialize Database
   await initDatabaseConnection();
