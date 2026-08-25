@@ -1,0 +1,6 @@
+{
+  "name": "Mosaic Studio",
+  "description": "A premium booking and business-management platform designed specifically for professional photographers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
